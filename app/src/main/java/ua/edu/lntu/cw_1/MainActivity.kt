@@ -55,6 +55,35 @@ fun MyApp()
             .background(Color(0xFF999999)),
         verticalArrangement = Arrangement.Center
     ){
-
+        Column(
+            modifier = Modifier. fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Box(
+                modifier = Modifier
+                    .background(Color(0xFF555555))
+                    .size(150.dp)
+                    .padding(12.dp)
+            ) {
+                Image(
+                    painter = logo, contentDescription = null,
+                    modifier = Modifier
+                        .size(150.dp)
+                )
+            }
+            Text(
+                "Nazar Melnichuck",
+                fontSize = 25.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                "Web Developer",
+                fontSize = 25.sp,
+                fontWeight = FontWeight.Bold
+            )
+        }
+        Column (
+        ){
+        }
     }
 }
