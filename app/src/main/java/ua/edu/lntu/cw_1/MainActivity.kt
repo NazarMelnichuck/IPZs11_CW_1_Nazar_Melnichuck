@@ -83,7 +83,13 @@ fun MyApp()
             )
         }
         Column (
+            modifier = Modifier. fillMaxWidth()
+                .padding(top = 150.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ){
+            Items(logo, "+99 (99)99 99");
+            Items(logo, "@**********.ua");
+            Items(logo, "***@gmail.com");
         }
     }
 }
@@ -103,7 +109,7 @@ fun Items(painter: Painter, description: String) {
             text = "$description",
             fontSize = 20.sp,
             fontWeight = FontWeight.Medium,
-            color = Color(0xFF3ddc84)
+            color = Color(0xFF555555)
         )
     }
 }
