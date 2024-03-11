@@ -89,7 +89,7 @@ fun MyApp()
         ){
             Items(logo, "+99 (99)99 99");
             Items(logo, "@**********.ua");
-            Items(logo, "***@gmail.com");
+            Items(logo, "****@gmail.com");
         }
     }
 }
