@@ -48,11 +48,13 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MyApp()
 {
+    val logo = painterResource(R.drawable.android_logo)
     Column (
         modifier = Modifier
             .fillMaxSize()
             .background(Color(0xFF999999)),
         verticalArrangement = Arrangement.Center
     ){
+
     }
 }
